@@ -1,0 +1,9 @@
+.pgbar-content {position: relative; background: #ccc; height: 20px; margin-top: 15px;}
+
+.pgbar{
+    background:cornflowerblue;
+    position:absolute;
+    height: 100%;
+    left:0;
+}
+.backg {margin-top: 40px; background-color: cadetblue; }

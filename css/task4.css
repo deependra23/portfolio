@@ -1,0 +1,50 @@
+body {font-family: sans-serif;}
+.wrapper {width:1170px; margin: 0 auto; border:1px solid blue;}
+.menu{
+    height: 60px;
+    background-color: #052852;
+    color: #f3f3f3;
+    position: fixed;
+    width:100%;    
+}
+.menu img{
+    height: 45px;
+    float:left;
+}
+.menu ul {float:right; width:1100px;}
+.menu li a {
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    display: block;
+}
+
+.menu li {display: inline-block;}
+.menu li:last-child{
+    float:right;
+    text-decoration: none;
+}
+
+.clear {clear:both; }
+
+.banner{
+    height: 262px;
+    width: 100%;
+    border: 2px solid #ddd;
+    overflow: hidden;
+    
+}
+
+.container div{
+    float: left;
+    width: 25%;
+    height: 250px;
+    text-align: center;
+}
+
+.container div img{
+    
+    border: 1px solid black;
+    height: 100%;
+    width:auto;
+}

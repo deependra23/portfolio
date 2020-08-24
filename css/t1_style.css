@@ -1,0 +1,57 @@
+.task{
+    position: relative;
+    background-color: rgb(41, 128, 185);
+    border: 2px solid red;
+    width: 700px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    }
+.task p {
+    color: rgb(241, 196, 15);
+    font-size: 25px; 
+}
+
+
+
+.btn {background: red; color:white; padding: 10px;}
+.btn:hover {background: yellow; color: black; padding:15px ;}
+
+.task p:first-letter {font-size: 30px; color:purple;}
+.task p::selection {background: red; color:white;}
+
+.task p:first-child {font-size:16px; padding: 15px;}
+.task p:nth-child(2){ background: red; color: white; font-size: 18px; padding: 20px;}
+.task p:nth-child(3){background: blue; color: antiquewhite; font-size: 17px; padding: 10px;}
+.task p:nth-child(4){background: yellow;}
+
+
+.blb, .tlb{
+    position: absolute; 
+    width: 150px;
+    text-align: center;
+    text-transform:uppercase;
+    color:beige;
+    }
+.blb p, .tlb p {padding: 10px 20px; position: absolute; margin:0;background:black; font-size:16px; border-radius:10px;}
+.blb {left: -20; top: -20;}
+.tlb {left: -20; bottom: 20;}
+
+.rtb{
+    
+    color: rgb(231, 76, 60);
+    position:absolute;
+    right:50;
+    top: -25;
+    z-index: 1px;
+}
+
+.rtb i {width:30px;
+    height:30px;
+    border: 1px solid #000;
+    background: white;
+    border-radius: 100%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;}
+

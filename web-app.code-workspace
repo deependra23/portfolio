@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "img/portfolio"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../My-profile"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My-profile"
+	}
+}

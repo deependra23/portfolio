@@ -1,0 +1,111 @@
+body{
+    font-family: 'Mukta', sans-serif;}
+.header {padding: 15px;}
+.nav {background: #0e5dae;}
+.nav ul {margin-bottom: 0;}
+.nav ul li {display:inline-block;}
+.nav ul li a {display:block; padding:15px; color:#fff;}
+.nav ul li a:hover {background: black; text-decoration: none;}
+
+.nav-right ul {text-align: right; text-transform: uppercase;}
+.nav-right ul li:last-child a{background: red;}
+.nav-right ul li:first-child {background: rgba(14,93,174, 0.5);}
+
+.nav-bottom {border-bottom: 1px solid #404040;}
+.nav-bottom ul{ margin-bottom: 0;}
+.nav-bottom ul li {display: inline-block;}
+.nav-bottom ul li a{display: block; padding: 15px; color: #404040; text-decoration: none;}
+.nav-bottom ul li a::before{content: "#"; color: #ced6e0; }
+.nav-bottom ul li:first-child{background-color: #ced6e0; text-decoration: none; padding: 15px;}
+
+.content{ background:#ced6e0; border: 4px; margin-top: 40px; padding-top: 20px; text-align: center;}
+.content p a{font-size: 60px; color: #404040;}
+.content p:after {content: "\f088"; font-family: "Font Awesome 5 Free";}
+.content ul li{display: inline-block; color: #404040; padding-right: 10px;}
+.content ul li img{ border-radius:100px; height: 25px;}
+.content p a:hover {color:#0e5dae; text-decoration: none;}
+.content2 {margin-top: 40px; box-shadow: 1px 2px 8px rgba(0,0,0,0.3);}
+.content2 img{width:100%;}
+.content2 p{font-size: 30px; text-align:center; margin-top: 50px; }
+.content2 ul{text-align: center;}
+.content2 ul li{display:inline-block; font-size: 15px; padding:5px;}
+.contentside {margin-top: 40px;}
+.contentside img{display:inline-block; width: 200px;  margin-bottom: 10px;}
+.contentside h6{padding-top:20px; font-size: 25px;}
+.clear {clear: both;}
+
+/** australia **/
+.content3{margin-top: 30px;}
+.content3 ul{ display: flex; justify-content: flex-end; background: #f4f8fb; border-bottom: 1px solid rgba(0,0,0,0.3);}
+.content3 ul li{display: flex; color: rgb(14,93,174); align-items: center; margin-left: 15px; }
+.content3 ul li:first-child{border-radius: 0; background: #f4f8fb; margin-right: 127px; font-size: 35px; font-weight: 600px;}
+.content3 ul li a{background: rgba(0,0,0,.09); border: 0; padding:10px 12px 10px 12px; border-radius: 100px; color: rgb(14,93,174); display: flex; align-items: flex-end;}
+.content3 ul li a:last-child{ margin-right:0;}
+
+.content4{ display: inline-block; margin-top: 30px;}
+.content4 ul{ background: rgba(77,77,77,.06);}
+.content4 ul li a{color: #404040; border-bottom: 1px solid #ddd; padding: 15px; }
+.content4 ul li a:hover{background-color: #dfe6e9; color:#0e5dae;}
+
+/* Ramro Nepal **/
+.photo-f ul{background: #f4f8fb; display: flex; justify-content: space-between; align-items: center;  margin-top: 15px; color: rgb(14,93,174); border-bottom: solid 1px rgba(77,77,77,.2);}
+.photo-f ul li:first-child{padding-left: 20px; font-size: 30px;}
+.photo-f ul li:last-child{background: rgba(0,0,0,.09); margin-right: 30px; padding: 5px 20px 5px 20px;  border-radius: 100px;}
+.photo-f ul li:last-child:hover{background-color: #0e5dae; text-decoration: none; }
+
+.photo-ff {box-shadow: 1px 2px 8px rgba(0,0,0,0.3); height: 300px;}
+.photo-ff img{height:200px; object-fit: cover;}
+.photo-ff .pt-wrap {padding: 10px;}
+.photo-ff h6{ padding-top: 20px; text-align: center;}
+.backg { background-color: #e9edf1; height: 400px; margin-bottom: 30px;}
+
+/* Interview **/
+.interv {height: 350px; background-color: #474787; margin-top: 20px;}
+.interv img {height:350px; object-fit:cover; width: 100%; }
+.interv p{text-align: center; font-size: 35px; color: rgba(255, 255, 255,1.0) }
+.backgg {background: #f4f8fb;}
+
+/* top side menu [inside Interview] */
+
+.inside { background:#0e5dae; color:#f4f8fb; padding-top: 8px;; text-align: center; }
+
+.hide-mb {display: block !important;}
+.show-mb {display:none !important;}
+
+@media print {
+    .header {background: red; display: none;}
+    body {background: yellow;}
+}
+
+@media (max-width:380px) {
+    .hide-mb {display: none !important;}
+    .show-mb {display:block !important;}
+    .header {text-align:center;}
+    .nav ul li a{height: 40px; padding:10;}
+    .nav ul li{display:none;}
+    .nav ul li:first-child, .nav .nav-right ul li {display: inline-block;}
+    .nav-right { padding: 0; display: flex; align-items: center; justify-content: center;}
+    .nav-bottom {display: none;}
+    .content { height: 100px; padding-top: 0px; margin-top: 10px;}
+    .content ul li img{height: 20px;}
+    .content ul li{padding-top: 0;}
+    .content p a{ font-size: 20px;}
+
+    .content2 {box-shadow: 1px 2px 8px rgba(0,0,0,0.3); margin: 20px 5px 0 10px;}
+    .content2 img{width:100%; }
+    .content2 p{font-size: 20px; text-align:center; margin-top: 10px; }
+    .content2 ul{text-align: center;}
+    .content2 ul li{display:inline-block; font-size: 15px; padding:5px;}
+    .contentside {margin-top: 30px; display: block;}
+    .contentside img{display:block; width: 150px;  margin-bottom: 10px;}
+    .contentside h6{padding-top:10px; }
+      .clear {clear: both;}
+
+
+
+    
+    
+}
+
+
+

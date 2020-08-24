@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "img/portfolio"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Html and CSS"
+	}
+}
