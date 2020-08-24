@@ -1,62 +1,65 @@
-.header{
+.header {
     margin: 20px auto;
-    background: url(img/small_image.png) rgba(32,25,55,.4) no-repeat top right;
-    border: 5px solid rgb(192, 57, 43) ;
+    background: url(img/small_image.png) rgba(32, 25, 55, .4) no-repeat top right;
+    border: 5px solid rgb(192, 57, 43);
     padding: 40px;
 }
 
-.containerandsidebar{
-    
+.containerandsidebar {
+
     border: 2px solid rgb(192, 57, 43);
     padding: 20px;
 }
 
-.sidebar1{
+.sidebar1 {
     display: inline-block;
     overflow: auto;
     width: 20%;
-    
     padding: 20px;
-
-    
     background-color: rgb(236, 240, 241);
     border: 2px solid rgb(192, 57, 43);
-} 
+}
 
 
-.sidebar1 p span {display:block;}
+.sidebar1 p span {
+    display: block;
+}
 
-.sl {width:200px; height: 200px; background: green;}
+.sl {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
 
-.content1{
+.content1 {
     display: inline-block;
-    position:relative;
+    position: relative;
     width: 60%;
- 
-    padding:20px;
-   
+
+    padding: 20px;
+
     text-align: center;
-    text-decoration: line-through; 
+    text-decoration: line-through;
     border: 2px solid rgb(192, 57, 43);
 }
 
-.cl, .cb {position:absolute; width:200px; height: 200px; background: red;}
-.cl {right: 50px; bottom: 50px;}
-.cb {background: blue; left:-50px; top:-50px;}
-
-.clear {clear: both;}
-
-.abcd{
- width: 100%;
- border: 3px solid black;
-
+.cl, .cb {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: red;
 }
 
-.footer{
+.cl {
+    right: 50px;
+    bottom: 50px;
+}
+
+.footer {
     width: 100%;
     height: 300px;
     position: fixed;
     border: 2px rgb(44, 62, 80) double;
     text-align: center;
-    
+
 }
